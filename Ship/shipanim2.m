@@ -101,7 +101,7 @@ elseif flag==0,
   set(0,'ShowHiddenHandles','on');
    figure(ShipAnim);
   
-  axis(Axes,2*[-6 6 -6 6], 'on');
+  axis(Axes,2*[-12 12 -12 12], 'on');
   grid on
 	% AXIS([XMIN XMAX YMIN YMAX]) sets scaling for the x- and y-axes
    %     on the current plot.
