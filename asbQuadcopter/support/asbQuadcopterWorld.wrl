@@ -73,12 +73,51 @@ DEF OnQuadNoRotation Viewpoint {
   position 53 1.00177 95
   orientation 0 -1 -0 1.57
 }
-DEF LandingMarker Transform {
+DEF Red Transform {
   translation 57 0.02 97
   children Shape {
     appearance Appearance {
       material Material {
         diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.3 0.1 0.3
+    }
+}
+}
+DEF Blue Transform {
+  translation 57 0.02 100
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 0 0 1
+      }
+    }
+    geometry Box {
+      size 0.3 0.1 0.3
+    }
+  }
+}
+DEF Green Transform {
+  translation 55 0.02 100
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 0 1 0
+      }
+    }
+    geometry Box {
+      size 0.3 0.1 0.3
+    }
+  }
+}
+DEF Purple Transform {
+  translation 55 0.02 97
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 1
       }
     }
     geometry Box {

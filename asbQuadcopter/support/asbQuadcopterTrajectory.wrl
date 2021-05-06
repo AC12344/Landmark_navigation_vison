@@ -4,7 +4,6 @@ EXTERNPROTO MarkerProto [
   exposedField SFVec3f Translation
 ]
 "asbWaypointMarker.wrl#MarkerProto" 
-
 DEF LineTransform Transform {
   children DEF LineShape Shape {
     appearance DEF LineAppearance Appearance {
@@ -2640,7 +2639,4 @@ DEF Marker_47 MarkerProto {
 }
 DEF Marker_48 MarkerProto {
   Translation 55.0628 16.15 89.9208
-}
-DEF Marker_49 MarkerProto {
-  Translation 55 16.15 95
 }
