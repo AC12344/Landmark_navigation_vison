@@ -78,6 +78,32 @@ DEF Red Transform {
   children Shape {
     appearance Appearance {
       material Material {
+        diffuseColor 0.8 0.18 0.2
+      }
+    }
+    geometry Box {
+      size 1.3 0.1 1.3
+    }
+  }
+}
+DEF Red Transform {
+  translation 57 0.001765 97
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 0.8 0.18 0.2
+      }
+    }
+    geometry Box {
+      size 1.3 0.1 1.3
+    }
+  }
+}
+DEF Red Transform {
+  translation 55 0.001765 97
+  children Shape {
+    appearance Appearance {
+      material Material {
         diffuseColor 1 0 0
       }
     }
@@ -87,7 +113,7 @@ DEF Red Transform {
   }
 }
 DEF Red Transform {
-  translation 57 0.001765 95
+  translation 55 0.001765 95
   children Shape {
     appearance Appearance {
       material Material {
@@ -118,20 +144,6 @@ DEF Green Transform {
     appearance Appearance {
       material Material {
         diffuseColor 0 1 0
-      }
-    }
-    geometry Box {
-      size 1.3 0.1 1.3
-    }
-  }
-}
-
-DEF Purple Transform {
-  translation 57 0.02 97
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 1
       }
     }
     geometry Box {
