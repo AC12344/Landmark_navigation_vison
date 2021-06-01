@@ -2,7 +2,7 @@
 ## Makefile generated for component 'template_drone'. 
 ## 
 ## Makefile     : template_drone.mk
-## Generated on : Tue Jun 01 14:01:38 2021
+## Generated on : Tue Jun 01 14:59:49 2021
 ## Final product: $(RELATIVE_PATH_TO_ANCHOR)/template_drone.so
 ## Product type : executable
 ## 
