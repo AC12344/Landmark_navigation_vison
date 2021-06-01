@@ -5,11 +5,11 @@
  *
  * File: rtwtypes.h
  *
- * Code generated for Simulink model 'stateEstimator'.
+ * Code generated for Simulink model 'flightController'.
  *
- * Model version                  : 1.46
+ * Model version                  : 1.276
  * Simulink Coder version         : 9.4 (R2020b) 29-Jul-2020
- * C/C++ source code generated on : Tue Jun  1 13:04:23 2021
+ * C/C++ source code generated on : Tue Jun  1 13:55:21 2021
  */
 
 #ifndef RTWTYPES_H
