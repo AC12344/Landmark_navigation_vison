@@ -2,7 +2,7 @@
 ## Makefile generated for component 'template_drone'. 
 ## 
 ## Makefile     : template_drone.mk
-## Generated on : Tue Jun 01 15:22:48 2021
+## Generated on : Tue Jun 01 15:35:15 2021
 ## Final product: $(RELATIVE_PATH_TO_ANCHOR)/template_drone.so
 ## Product type : executable
 ## 
@@ -177,7 +177,7 @@ DEFINES = $(DEFINES_) $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(
 ## SOURCE FILES
 ###########################################################################
 
-SRCS = C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_image.c $(START_DIR)/template_drone_ert_rtw/template_drone.c $(START_DIR)/template_drone_ert_rtw/template_drone_data.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_control.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_of.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_vis.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/ptimer.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/controlCommand.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/mw_extrathreads.c
+SRCS = C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_image.c $(START_DIR)/template_drone_ert_rtw/rtGetInf.c $(START_DIR)/template_drone_ert_rtw/rtGetNaN.c $(START_DIR)/template_drone_ert_rtw/rt_nonfinite.c $(START_DIR)/template_drone_ert_rtw/template_drone.c $(START_DIR)/template_drone_ert_rtw/template_drone_data.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_control.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_of.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_vis.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/ptimer.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/controlCommand.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/mw_extrathreads.c
 
 ALL_SRCS = $(SRCS)
 
@@ -185,7 +185,7 @@ ALL_SRCS = $(SRCS)
 ## OBJECTS
 ###########################################################################
 
-OBJS = rsedu_image.o template_drone.o template_drone_data.o rsedu_control.o rsedu_of.o rsedu_vis.o ptimer.o controlCommand.o mw_extrathreads.o
+OBJS = rsedu_image.o rtGetInf.o rtGetNaN.o rt_nonfinite.o template_drone.o template_drone_data.o rsedu_control.o rsedu_of.o rsedu_vis.o ptimer.o controlCommand.o mw_extrathreads.o
 
 ALL_OBJS = $(OBJS)
 
@@ -380,6 +380,18 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS)
 
 
 rsedu_image.o : C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_image.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+rtGetInf.o : $(START_DIR)/template_drone_ert_rtw/rtGetInf.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+rtGetNaN.o : $(START_DIR)/template_drone_ert_rtw/rtGetNaN.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+rt_nonfinite.o : $(START_DIR)/template_drone_ert_rtw/rt_nonfinite.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
