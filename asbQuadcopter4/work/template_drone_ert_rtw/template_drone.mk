@@ -2,7 +2,7 @@
 ## Makefile generated for component 'template_drone'. 
 ## 
 ## Makefile     : template_drone.mk
-## Generated on : Tue Jun 01 16:30:59 2021
+## Generated on : Thu Jun 03 17:50:05 2021
 ## Final product: $(RELATIVE_PATH_TO_ANCHOR)/template_drone.so
 ## Product type : executable
 ## 
@@ -156,7 +156,7 @@ BUILD_TYPE = "Top-Level Standalone Executable"
 ## INCLUDE PATHS
 ###########################################################################
 
-INCLUDES_BUILDINFO = -I$(START_DIR) -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2020b/toolbox/target/SUPPOR~1/parrot/include -I$(START_DIR)/template_drone_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/vision/include -I$(MATLAB_ROOT)/toolbox/shared/dsp/vision/matlab/include
+INCLUDES_BUILDINFO = -I$(START_DIR) -I$(START_DIR)/template_drone_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src -I$(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils -I$(MATLAB_ROOT)/toolbox/vision/include -I$(MATLAB_ROOT)/toolbox/shared/dsp/vision/matlab/include -IC:/PROGRA~3/MATLAB/SUPPOR~1/R2020b/toolbox/target/SUPPOR~1/parrot/include
 
 INCLUDES = $(INCLUDES_BUILDINFO)
 
@@ -164,11 +164,11 @@ INCLUDES = $(INCLUDES_BUILDINFO)
 ## DEFINES
 ###########################################################################
 
-DEFINES_ = -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DMW_HAS_IMAGE_PROCESSING -DR_CHANNEL -DG_CHANNEL -DB_CHANNEL -DY_CHANNEL -DU_CHANNEL -DV_CHANNEL -DMW_HAS_OPTICAL_FLOW_LOGIC
-DEFINES_BUILD_ARGS = -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=1
+DEFINES_ = -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DMW_HAS_IMAGE_PROCESSING -DMW_HAS_OPTICAL_FLOW_LOGIC
+DEFINES_BUILD_ARGS = -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DEXT_MODE=1 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=1
 DEFINES_CUSTOM = 
-DEFINES_OPTS = -DTID01EQ=0
-DEFINES_SKIPFORSIL = -DDELOS -DDELOS_EDU -DEXTMODE_DISABLETESTING -DEXTMODE_STATIC_SIZE=16384 -DEXTMODE_DISABLE_ARGS_PROCESSING=1 -DPARROT_LINUX_COMM -DSTACK_SIZE=64 -DRT -DSTOP_TIME=100 -DMAMBO=1
+DEFINES_OPTS = -DON_TARGET_WAIT_FOR_START=0 -DTID01EQ=0
+DEFINES_SKIPFORSIL = -DDELOS -DDELOS_EDU -DEXTMODE_DISABLETESTING -DEXTMODE_STATIC_SIZE=16384 -DEXTMODE_DISABLE_ARGS_PROCESSING=1 -DPARROT_LINUX_COMM -DSTACK_SIZE=64 -DRT -DSTOP_TIME=300 -DMAMBO=1
 DEFINES_STANDARD = -DMODEL=template_drone -DNUMST=2 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0
 
 DEFINES = $(DEFINES_) $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(DEFINES_SKIPFORSIL) $(DEFINES_STANDARD)
@@ -177,7 +177,7 @@ DEFINES = $(DEFINES_) $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(
 ## SOURCE FILES
 ###########################################################################
 
-SRCS = C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_image.c $(START_DIR)/template_drone_ert_rtw/rtGetInf.c $(START_DIR)/template_drone_ert_rtw/rtGetNaN.c $(START_DIR)/template_drone_ert_rtw/rt_nonfinite.c $(START_DIR)/template_drone_ert_rtw/template_drone.c $(START_DIR)/template_drone_ert_rtw/template_drone_data.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_control.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_of.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_vis.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/ptimer.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/controlCommand.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/mw_extrathreads.c
+SRCS = $(START_DIR)/template_drone_ert_rtw/rtGetInf.c $(START_DIR)/template_drone_ert_rtw/rtGetNaN.c $(START_DIR)/template_drone_ert_rtw/rt_nonfinite.c $(START_DIR)/template_drone_ert_rtw/template_drone.c $(START_DIR)/template_drone_ert_rtw/template_drone_data.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/ext_svr.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/updown.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/ext_work.c $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils/rtiostream_utils.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_control.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_of.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_vis.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/ptimer.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/controlCommand.c C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/mw_extrathreads.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/rtiostream_interface.c $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/rtiostreamtcpip/rtiostream_tcpip.c $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/mem_mgr.c
 
 ALL_SRCS = $(SRCS)
 
@@ -185,7 +185,7 @@ ALL_SRCS = $(SRCS)
 ## OBJECTS
 ###########################################################################
 
-OBJS = rsedu_image.o rtGetInf.o rtGetNaN.o rt_nonfinite.o template_drone.o template_drone_data.o rsedu_control.o rsedu_of.o rsedu_vis.o ptimer.o controlCommand.o mw_extrathreads.o
+OBJS = rtGetInf.o rtGetNaN.o rt_nonfinite.o template_drone.o template_drone_data.o ext_svr.o updown.o ext_work.o rtiostream_utils.o rsedu_control.o rsedu_of.o rsedu_vis.o ptimer.o controlCommand.o mw_extrathreads.o rtiostream_interface.o rtiostream_tcpip.o mem_mgr.o
 
 ALL_OBJS = $(OBJS)
 
@@ -379,8 +379,20 @@ $(PRODUCT) : $(OBJS) $(PREBUILT_OBJS)
 	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
-rsedu_image.o : C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/rsedu_image.c
+%.o : $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/%.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+%.o : $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/%.cpp
+	$(CPP) $(CPPFLAGS) -o "$@" "$<"
+
+
+%.o : $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils/%.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+%.o : $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils/%.cpp
+	$(CPP) $(CPPFLAGS) -o "$@" "$<"
 
 
 rtGetInf.o : $(START_DIR)/template_drone_ert_rtw/rtGetInf.c
@@ -400,6 +412,22 @@ template_drone.o : $(START_DIR)/template_drone_ert_rtw/template_drone.c
 
 
 template_drone_data.o : $(START_DIR)/template_drone_ert_rtw/template_drone_data.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+ext_svr.o : $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/ext_svr.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+updown.o : $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/updown.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+ext_work.o : $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/ext_work.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+rtiostream_utils.o : $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/utils/rtiostream_utils.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 
@@ -424,6 +452,18 @@ controlCommand.o : C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/s
 
 
 mw_extrathreads.o : C:/ProgramData/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/parrot/src/mw_extrathreads.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+rtiostream_interface.o : $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/rtiostream_interface.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+rtiostream_tcpip.o : $(MATLAB_ROOT)/toolbox/coder/rtiostream/src/rtiostreamtcpip/rtiostream_tcpip.c
+	$(CC) $(CFLAGS) -o "$@" "$<"
+
+
+mem_mgr.o : $(MATLAB_ROOT)/rtw/c/src/ext_mode/common/mem_mgr.c
 	$(CC) $(CFLAGS) -o "$@" "$<"
 
 

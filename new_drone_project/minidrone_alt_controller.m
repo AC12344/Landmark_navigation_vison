@@ -8,6 +8,9 @@
 % tfdata(est_sys)
 % [A,B,C,D] = tf2ss(est_sys.NUM, est_sys.DEN)
 
+enableLanding = 1;
+landingAltitude = 0;
+
 %% Manual matrices
 A = [0 1;
      0 0]

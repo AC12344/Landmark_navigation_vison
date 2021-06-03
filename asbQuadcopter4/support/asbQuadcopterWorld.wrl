@@ -100,12 +100,13 @@ DEF Red Transform {
     }
   }
 }
-DEF Purple Transform {
+DEF Green Transform {
   translation 55 0.001765 97
   children Shape {
     appearance Appearance {
       material Material {
-          diffuseColor 0.5 0 0.6
+          diffuseColor 0.53 0.83 0.16
+          #purple: diffuseColor 0.5 0 0.6
         #diffuseColor 0.27 0.75 0.84
       }
     }
