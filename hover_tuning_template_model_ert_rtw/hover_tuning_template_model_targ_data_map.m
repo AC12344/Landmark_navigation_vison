@@ -792,12 +792,24 @@
     ;%
     ;% Auto data (ay1fvtxw3vr)
     ;%
-      section.nData     = 1;
-      section.data(1)  = dumData; %prealloc
+      section.nData     = 4;
+      section.data(4)  = dumData; %prealloc
       
 	  ;% ay1fvtxw3vr.gajlrupjrz
 	  section.data(1).logicalSrcIdx = 0;
 	  section.data(1).dtTransOffset = 0;
+	
+	  ;% ay1fvtxw3vr.agdhck5q5p
+	  section.data(2).logicalSrcIdx = 1;
+	  section.data(2).dtTransOffset = 1;
+	
+	  ;% ay1fvtxw3vr.fbbvpdh0cz
+	  section.data(3).logicalSrcIdx = 2;
+	  section.data(3).dtTransOffset = 19201;
+	
+	  ;% ay1fvtxw3vr.dgzvpv1pd3
+	  section.data(4).logicalSrcIdx = 3;
+	  section.data(4).dtTransOffset = 38401;
 	
       nTotData = nTotData + section.nData;
       sigMap.sections(1) = section;
@@ -807,7 +819,7 @@
       section.data(1)  = dumData; %prealloc
       
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.cjtirogwgi
-	  section.data(1).logicalSrcIdx = 5;
+	  section.data(1).logicalSrcIdx = 8;
 	  section.data(1).dtTransOffset = 0;
 	
       nTotData = nTotData + section.nData;
@@ -818,19 +830,19 @@
       section.data(4)  = dumData; %prealloc
       
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.g2bajhyqn3
-	  section.data(1).logicalSrcIdx = 1;
+	  section.data(1).logicalSrcIdx = 4;
 	  section.data(1).dtTransOffset = 0;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.fi2yulcxcy
-	  section.data(2).logicalSrcIdx = 2;
+	  section.data(2).logicalSrcIdx = 5;
 	  section.data(2).dtTransOffset = 1;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.htrco5olo2
-	  section.data(3).logicalSrcIdx = 3;
+	  section.data(3).logicalSrcIdx = 6;
 	  section.data(3).dtTransOffset = 5;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.ggtrlen5rt
-	  section.data(4).logicalSrcIdx = 4;
+	  section.data(4).logicalSrcIdx = 7;
 	  section.data(4).dtTransOffset = 8;
 	
       nTotData = nTotData + section.nData;
@@ -841,79 +853,79 @@
       section.data(19)  = dumData; %prealloc
       
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.kcrx5jcgyv
-	  section.data(1).logicalSrcIdx = 6;
+	  section.data(1).logicalSrcIdx = 9;
 	  section.data(1).dtTransOffset = 0;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.jrb4yngedz
-	  section.data(2).logicalSrcIdx = 7;
+	  section.data(2).logicalSrcIdx = 10;
 	  section.data(2).dtTransOffset = 1;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.bagdzb1m4g
-	  section.data(3).logicalSrcIdx = 8;
+	  section.data(3).logicalSrcIdx = 11;
 	  section.data(3).dtTransOffset = 2;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.kcrx5jcgyvp
-	  section.data(4).logicalSrcIdx = 9;
+	  section.data(4).logicalSrcIdx = 12;
 	  section.data(4).dtTransOffset = 3;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.jrb4yngedzu
-	  section.data(5).logicalSrcIdx = 10;
+	  section.data(5).logicalSrcIdx = 13;
 	  section.data(5).dtTransOffset = 4;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.bagdzb1m4gp
-	  section.data(6).logicalSrcIdx = 11;
+	  section.data(6).logicalSrcIdx = 14;
 	  section.data(6).dtTransOffset = 5;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.jj5kz0u3av
-	  section.data(7).logicalSrcIdx = 12;
+	  section.data(7).logicalSrcIdx = 15;
 	  section.data(7).dtTransOffset = 6;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.b1zpopiyjf
-	  section.data(8).logicalSrcIdx = 13;
+	  section.data(8).logicalSrcIdx = 16;
 	  section.data(8).dtTransOffset = 12;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.p12scmjs3b
-	  section.data(9).logicalSrcIdx = 14;
+	  section.data(9).logicalSrcIdx = 17;
 	  section.data(9).dtTransOffset = 14;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.apjmdvfsdp
-	  section.data(10).logicalSrcIdx = 15;
+	  section.data(10).logicalSrcIdx = 18;
 	  section.data(10).dtTransOffset = 17;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.bx045cp1nj
-	  section.data(11).logicalSrcIdx = 16;
+	  section.data(11).logicalSrcIdx = 19;
 	  section.data(11).dtTransOffset = 19;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.h1yhuksgxl
-	  section.data(12).logicalSrcIdx = 17;
+	  section.data(12).logicalSrcIdx = 20;
 	  section.data(12).dtTransOffset = 20;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.po52nqzpos
-	  section.data(13).logicalSrcIdx = 18;
+	  section.data(13).logicalSrcIdx = 21;
 	  section.data(13).dtTransOffset = 21;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.l011wyi4bx
-	  section.data(14).logicalSrcIdx = 19;
+	  section.data(14).logicalSrcIdx = 22;
 	  section.data(14).dtTransOffset = 22;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.pacwqgorxf
-	  section.data(15).logicalSrcIdx = 20;
+	  section.data(15).logicalSrcIdx = 23;
 	  section.data(15).dtTransOffset = 23;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.neut2nexsr
-	  section.data(16).logicalSrcIdx = 21;
+	  section.data(16).logicalSrcIdx = 24;
 	  section.data(16).dtTransOffset = 26;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.bq4i53b0ru
-	  section.data(17).logicalSrcIdx = 22;
+	  section.data(17).logicalSrcIdx = 25;
 	  section.data(17).dtTransOffset = 28;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.bmgez44zf0
-	  section.data(18).logicalSrcIdx = 23;
+	  section.data(18).logicalSrcIdx = 26;
 	  section.data(18).dtTransOffset = 30;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.l4jhttreqe
-	  section.data(19).logicalSrcIdx = 24;
+	  section.data(19).logicalSrcIdx = 27;
 	  section.data(19).dtTransOffset = 33;
 	
       nTotData = nTotData + section.nData;
@@ -924,7 +936,7 @@
       section.data(1)  = dumData; %prealloc
       
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.luhr301tav.dbiefxripq
-	  section.data(1).logicalSrcIdx = 25;
+	  section.data(1).logicalSrcIdx = 28;
 	  section.data(1).dtTransOffset = 0;
 	
       nTotData = nTotData + section.nData;
@@ -935,7 +947,7 @@
       section.data(1)  = dumData; %prealloc
       
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.b5bortgsr3.gtupw0jrvo
-	  section.data(1).logicalSrcIdx = 26;
+	  section.data(1).logicalSrcIdx = 29;
 	  section.data(1).dtTransOffset = 0;
 	
       nTotData = nTotData + section.nData;
@@ -946,7 +958,7 @@
       section.data(1)  = dumData; %prealloc
       
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.auuhrry5jf2.dbiefxripq
-	  section.data(1).logicalSrcIdx = 27;
+	  section.data(1).logicalSrcIdx = 30;
 	  section.data(1).dtTransOffset = 0;
 	
       nTotData = nTotData + section.nData;
@@ -957,7 +969,7 @@
       section.data(1)  = dumData; %prealloc
       
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.glary0bynre.gtupw0jrvo
-	  section.data(1).logicalSrcIdx = 28;
+	  section.data(1).logicalSrcIdx = 31;
 	  section.data(1).dtTransOffset = 0;
 	
       nTotData = nTotData + section.nData;
@@ -968,67 +980,67 @@
       section.data(16)  = dumData; %prealloc
       
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.efamlknsk2
-	  section.data(1).logicalSrcIdx = 29;
+	  section.data(1).logicalSrcIdx = 32;
 	  section.data(1).dtTransOffset = 0;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.g0hyv21ahk
-	  section.data(2).logicalSrcIdx = 30;
+	  section.data(2).logicalSrcIdx = 33;
 	  section.data(2).dtTransOffset = 8;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.nyrhcf0fmw
-	  section.data(3).logicalSrcIdx = 31;
+	  section.data(3).logicalSrcIdx = 34;
 	  section.data(3).dtTransOffset = 20;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.bmgez44zf0
-	  section.data(4).logicalSrcIdx = 32;
+	  section.data(4).logicalSrcIdx = 35;
 	  section.data(4).dtTransOffset = 21;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.ggfazbtp0q
-	  section.data(5).logicalSrcIdx = 33;
+	  section.data(5).logicalSrcIdx = 36;
 	  section.data(5).dtTransOffset = 24;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.l4jhttreqe
-	  section.data(6).logicalSrcIdx = 34;
+	  section.data(6).logicalSrcIdx = 37;
 	  section.data(6).dtTransOffset = 25;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.ia0wzwx34u
-	  section.data(7).logicalSrcIdx = 35;
+	  section.data(7).logicalSrcIdx = 38;
 	  section.data(7).dtTransOffset = 28;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.dukgpsw1ss
-	  section.data(8).logicalSrcIdx = 36;
+	  section.data(8).logicalSrcIdx = 39;
 	  section.data(8).dtTransOffset = 29;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.e502b2clqo
-	  section.data(9).logicalSrcIdx = 37;
+	  section.data(9).logicalSrcIdx = 40;
 	  section.data(9).dtTransOffset = 38;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.ce0ao3q0m3
-	  section.data(10).logicalSrcIdx = 38;
+	  section.data(10).logicalSrcIdx = 41;
 	  section.data(10).dtTransOffset = 39;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.oqdscjqbld
-	  section.data(11).logicalSrcIdx = 39;
+	  section.data(11).logicalSrcIdx = 42;
 	  section.data(11).dtTransOffset = 42;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.ml1u3m0uwf
-	  section.data(12).logicalSrcIdx = 40;
+	  section.data(12).logicalSrcIdx = 43;
 	  section.data(12).dtTransOffset = 46;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.nkxaidf24a
-	  section.data(13).logicalSrcIdx = 41;
+	  section.data(13).logicalSrcIdx = 44;
 	  section.data(13).dtTransOffset = 54;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.hbsbx4ok2u
-	  section.data(14).logicalSrcIdx = 42;
+	  section.data(14).logicalSrcIdx = 45;
 	  section.data(14).dtTransOffset = 62;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.e2535niaiy
-	  section.data(15).logicalSrcIdx = 43;
+	  section.data(15).logicalSrcIdx = 46;
 	  section.data(15).dtTransOffset = 63;
 	
 	  ;% ay1fvtxw3vr.iaerhrjrgiy.hqd4v2bp1f2.pbtr0jwr0n
-	  section.data(16).logicalSrcIdx = 44;
+	  section.data(16).logicalSrcIdx = 47;
 	  section.data(16).dtTransOffset = 64;
 	
       nTotData = nTotData + section.nData;
@@ -1073,7 +1085,7 @@
   ;%*******************
       
     nTotData      = 0; %add to this count as we go
-    nTotSects     = 24;
+    nTotSects     = 25;
     sectIdxOffset = 11;
     
     ;%
@@ -1121,7 +1133,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.bmczvpjnpo
+	  ;% fffknzztmme.awygxzyh1b.LoggedData
 	  section.data(1).logicalSrcIdx = 2;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -1132,7 +1144,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.gkreh4syyt
+	  ;% fffknzztmme.bmczvpjnpo
 	  section.data(1).logicalSrcIdx = 3;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -1140,216 +1152,216 @@
       dworkMap.sections(4) = section;
       clear section
       
+      section.nData     = 1;
+      section.data(1)  = dumData; %prealloc
+      
+	  ;% fffknzztmme.gkreh4syyt
+	  section.data(1).logicalSrcIdx = 4;
+	  section.data(1).dtTransOffset = 0;
+	
+      nTotData = nTotData + section.nData;
+      dworkMap.sections(5) = section;
+      clear section
+      
       section.nData     = 5;
       section.data(5)  = dumData; %prealloc
       
 	  ;% fffknzztmme.iaerhrjrgiy.exajbo5ccq
-	  section.data(1).logicalSrcIdx = 4;
+	  section.data(1).logicalSrcIdx = 5;
 	  section.data(1).dtTransOffset = 0;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.dvv4uuirih
-	  section.data(2).logicalSrcIdx = 5;
+	  section.data(2).logicalSrcIdx = 6;
 	  section.data(2).dtTransOffset = 1;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.lsumohwiuc
-	  section.data(3).logicalSrcIdx = 6;
+	  section.data(3).logicalSrcIdx = 7;
 	  section.data(3).dtTransOffset = 3;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.fugrc0jxdb
-	  section.data(4).logicalSrcIdx = 7;
+	  section.data(4).logicalSrcIdx = 8;
 	  section.data(4).dtTransOffset = 6;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.f35iya4gnk
-	  section.data(5).logicalSrcIdx = 8;
+	  section.data(5).logicalSrcIdx = 9;
 	  section.data(5).dtTransOffset = 7;
 	
       nTotData = nTotData + section.nData;
-      dworkMap.sections(5) = section;
+      dworkMap.sections(6) = section;
       clear section
       
       section.nData     = 6;
       section.data(6)  = dumData; %prealloc
       
 	  ;% fffknzztmme.iaerhrjrgiy.erxeuospqh.LoggedData
-	  section.data(1).logicalSrcIdx = 10;
+	  section.data(1).logicalSrcIdx = 11;
 	  section.data(1).dtTransOffset = 0;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.dg3vcgqbqq.LoggedData
-	  section.data(2).logicalSrcIdx = 11;
+	  section.data(2).logicalSrcIdx = 12;
 	  section.data(2).dtTransOffset = 1;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.py43szzjle.LoggedData
-	  section.data(3).logicalSrcIdx = 12;
+	  section.data(3).logicalSrcIdx = 13;
 	  section.data(3).dtTransOffset = 2;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.fckuhd05l4.LoggedData
-	  section.data(4).logicalSrcIdx = 13;
+	  section.data(4).logicalSrcIdx = 14;
 	  section.data(4).dtTransOffset = 3;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.cffq3tcuuw.LoggedData
-	  section.data(5).logicalSrcIdx = 14;
+	  section.data(5).logicalSrcIdx = 15;
 	  section.data(5).dtTransOffset = 4;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.fsa5shrvsc.LoggedData
-	  section.data(6).logicalSrcIdx = 15;
+	  section.data(6).logicalSrcIdx = 16;
 	  section.data(6).dtTransOffset = 5;
 	
       nTotData = nTotData + section.nData;
-      dworkMap.sections(6) = section;
+      dworkMap.sections(7) = section;
       clear section
       
       section.nData     = 11;
       section.data(11)  = dumData; %prealloc
       
 	  ;% fffknzztmme.iaerhrjrgiy.hrks2do1lj
-	  section.data(1).logicalSrcIdx = 16;
+	  section.data(1).logicalSrcIdx = 17;
 	  section.data(1).dtTransOffset = 0;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.glxdu2ewk2
-	  section.data(2).logicalSrcIdx = 17;
+	  section.data(2).logicalSrcIdx = 18;
 	  section.data(2).dtTransOffset = 2;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.ndbb5lrkcd
-	  section.data(3).logicalSrcIdx = 18;
+	  section.data(3).logicalSrcIdx = 19;
 	  section.data(3).dtTransOffset = 7;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.lzhoxhfe1p
-	  section.data(4).logicalSrcIdx = 19;
+	  section.data(4).logicalSrcIdx = 20;
 	  section.data(4).dtTransOffset = 22;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.gvi5n15iw1
-	  section.data(5).logicalSrcIdx = 20;
+	  section.data(5).logicalSrcIdx = 21;
 	  section.data(5).dtTransOffset = 24;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.gxnkxn4cui
-	  section.data(6).logicalSrcIdx = 21;
+	  section.data(6).logicalSrcIdx = 22;
 	  section.data(6).dtTransOffset = 26;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.anyrs2zpum
-	  section.data(7).logicalSrcIdx = 23;
+	  section.data(7).logicalSrcIdx = 24;
 	  section.data(7).dtTransOffset = 29;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.axdcyhdnp0
-	  section.data(8).logicalSrcIdx = 24;
+	  section.data(8).logicalSrcIdx = 25;
 	  section.data(8).dtTransOffset = 31;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.ge1dhbdrv0
-	  section.data(9).logicalSrcIdx = 25;
+	  section.data(9).logicalSrcIdx = 26;
 	  section.data(9).dtTransOffset = 41;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.jxssemabr3
-	  section.data(10).logicalSrcIdx = 27;
+	  section.data(10).logicalSrcIdx = 28;
 	  section.data(10).dtTransOffset = 43;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.jbp50wdopc
-	  section.data(11).logicalSrcIdx = 28;
+	  section.data(11).logicalSrcIdx = 29;
 	  section.data(11).dtTransOffset = 45;
 	
       nTotData = nTotData + section.nData;
-      dworkMap.sections(7) = section;
+      dworkMap.sections(8) = section;
       clear section
       
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
 	  ;% fffknzztmme.iaerhrjrgiy.bbuetn40ys
-	  section.data(1).logicalSrcIdx = 29;
+	  section.data(1).logicalSrcIdx = 30;
 	  section.data(1).dtTransOffset = 0;
 	
       nTotData = nTotData + section.nData;
-      dworkMap.sections(8) = section;
+      dworkMap.sections(9) = section;
       clear section
       
       section.nData     = 2;
       section.data(2)  = dumData; %prealloc
       
 	  ;% fffknzztmme.iaerhrjrgiy.keyyvvllwq
-	  section.data(1).logicalSrcIdx = 30;
+	  section.data(1).logicalSrcIdx = 31;
 	  section.data(1).dtTransOffset = 0;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.lexuh0zk2a
-	  section.data(2).logicalSrcIdx = 33;
+	  section.data(2).logicalSrcIdx = 34;
 	  section.data(2).dtTransOffset = 3;
 	
       nTotData = nTotData + section.nData;
-      dworkMap.sections(9) = section;
+      dworkMap.sections(10) = section;
       clear section
       
       section.nData     = 7;
       section.data(7)  = dumData; %prealloc
       
 	  ;% fffknzztmme.iaerhrjrgiy.h5rbyvpjef
-	  section.data(1).logicalSrcIdx = 34;
+	  section.data(1).logicalSrcIdx = 35;
 	  section.data(1).dtTransOffset = 0;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.g1xandfn2i
-	  section.data(2).logicalSrcIdx = 35;
+	  section.data(2).logicalSrcIdx = 36;
 	  section.data(2).dtTransOffset = 1;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.ldwdv11tk5
-	  section.data(3).logicalSrcIdx = 36;
+	  section.data(3).logicalSrcIdx = 37;
 	  section.data(3).dtTransOffset = 2;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.edoomfijw1
-	  section.data(4).logicalSrcIdx = 37;
+	  section.data(4).logicalSrcIdx = 38;
 	  section.data(4).dtTransOffset = 3;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.cuksnwawj0
-	  section.data(5).logicalSrcIdx = 38;
+	  section.data(5).logicalSrcIdx = 39;
 	  section.data(5).dtTransOffset = 4;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.mdhe5c04c5
-	  section.data(6).logicalSrcIdx = 39;
+	  section.data(6).logicalSrcIdx = 40;
 	  section.data(6).dtTransOffset = 5;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.addwj4kiua
-	  section.data(7).logicalSrcIdx = 40;
+	  section.data(7).logicalSrcIdx = 41;
 	  section.data(7).dtTransOffset = 6;
 	
       nTotData = nTotData + section.nData;
-      dworkMap.sections(10) = section;
+      dworkMap.sections(11) = section;
       clear section
       
       section.nData     = 3;
       section.data(3)  = dumData; %prealloc
       
 	  ;% fffknzztmme.iaerhrjrgiy.grjznwmxgj
-	  section.data(1).logicalSrcIdx = 41;
+	  section.data(1).logicalSrcIdx = 42;
 	  section.data(1).dtTransOffset = 0;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.bahm3rui32
-	  section.data(2).logicalSrcIdx = 42;
+	  section.data(2).logicalSrcIdx = 43;
 	  section.data(2).dtTransOffset = 1;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.aj1v5w5y5z
-	  section.data(3).logicalSrcIdx = 43;
+	  section.data(3).logicalSrcIdx = 44;
 	  section.data(3).dtTransOffset = 2;
 	
       nTotData = nTotData + section.nData;
-      dworkMap.sections(11) = section;
+      dworkMap.sections(12) = section;
       clear section
       
       section.nData     = 2;
       section.data(2)  = dumData; %prealloc
       
 	  ;% fffknzztmme.iaerhrjrgiy.n5lntdulwy
-	  section.data(1).logicalSrcIdx = 44;
+	  section.data(1).logicalSrcIdx = 45;
 	  section.data(1).dtTransOffset = 0;
 	
 	  ;% fffknzztmme.iaerhrjrgiy.ep5xfqowlj
-	  section.data(2).logicalSrcIdx = 45;
+	  section.data(2).logicalSrcIdx = 46;
 	  section.data(2).dtTransOffset = 1;
-	
-      nTotData = nTotData + section.nData;
-      dworkMap.sections(12) = section;
-      clear section
-      
-      section.nData     = 1;
-      section.data(1)  = dumData; %prealloc
-      
-	  ;% fffknzztmme.iaerhrjrgiy.luhr301tav.jknv104hn0
-	  section.data(1).logicalSrcIdx = 46;
-	  section.data(1).dtTransOffset = 0;
 	
       nTotData = nTotData + section.nData;
       dworkMap.sections(13) = section;
@@ -1358,7 +1370,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.luhr301tav.iglwr5kmg2
+	  ;% fffknzztmme.iaerhrjrgiy.luhr301tav.jknv104hn0
 	  section.data(1).logicalSrcIdx = 47;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -1369,7 +1381,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.b5bortgsr3.hv5dvh2wi5
+	  ;% fffknzztmme.iaerhrjrgiy.luhr301tav.iglwr5kmg2
 	  section.data(1).logicalSrcIdx = 48;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -1380,7 +1392,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.b5bortgsr3.kqwuze4ejf
+	  ;% fffknzztmme.iaerhrjrgiy.b5bortgsr3.hv5dvh2wi5
 	  section.data(1).logicalSrcIdx = 49;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -1391,7 +1403,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.auuhrry5jf2.jknv104hn0
+	  ;% fffknzztmme.iaerhrjrgiy.b5bortgsr3.kqwuze4ejf
 	  section.data(1).logicalSrcIdx = 50;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -1402,7 +1414,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.auuhrry5jf2.iglwr5kmg2
+	  ;% fffknzztmme.iaerhrjrgiy.auuhrry5jf2.jknv104hn0
 	  section.data(1).logicalSrcIdx = 51;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -1413,7 +1425,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.glary0bynre.hv5dvh2wi5
+	  ;% fffknzztmme.iaerhrjrgiy.auuhrry5jf2.iglwr5kmg2
 	  section.data(1).logicalSrcIdx = 52;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -1424,7 +1436,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.glary0bynre.kqwuze4ejf
+	  ;% fffknzztmme.iaerhrjrgiy.glary0bynre.hv5dvh2wi5
 	  section.data(1).logicalSrcIdx = 53;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -1432,51 +1444,51 @@
       dworkMap.sections(20) = section;
       clear section
       
-      section.nData     = 8;
-      section.data(8)  = dumData; %prealloc
+      section.nData     = 1;
+      section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.pbka05nzic.LoggedData
+	  ;% fffknzztmme.iaerhrjrgiy.glary0bynre.kqwuze4ejf
 	  section.data(1).logicalSrcIdx = 54;
 	  section.data(1).dtTransOffset = 0;
-	
-	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.ldyrygeoes.LoggedData
-	  section.data(2).logicalSrcIdx = 55;
-	  section.data(2).dtTransOffset = 1;
-	
-	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.pnk23rwlvk.LoggedData
-	  section.data(3).logicalSrcIdx = 56;
-	  section.data(3).dtTransOffset = 2;
-	
-	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.p23d13xsbf.LoggedData
-	  section.data(4).logicalSrcIdx = 57;
-	  section.data(4).dtTransOffset = 3;
-	
-	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.fevmioxn2g.LoggedData
-	  section.data(5).logicalSrcIdx = 58;
-	  section.data(5).dtTransOffset = 4;
-	
-	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.ahtctrkqga.LoggedData
-	  section.data(6).logicalSrcIdx = 59;
-	  section.data(6).dtTransOffset = 5;
-	
-	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.grjmqrjdxi.LoggedData
-	  section.data(7).logicalSrcIdx = 60;
-	  section.data(7).dtTransOffset = 6;
-	
-	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.gt3lnbzths.LoggedData
-	  section.data(8).logicalSrcIdx = 61;
-	  section.data(8).dtTransOffset = 7;
 	
       nTotData = nTotData + section.nData;
       dworkMap.sections(21) = section;
       clear section
       
-      section.nData     = 1;
-      section.data(1)  = dumData; %prealloc
+      section.nData     = 8;
+      section.data(8)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.laoar3shd1.ajmlomiaju
-	  section.data(1).logicalSrcIdx = 62;
+	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.pbka05nzic.LoggedData
+	  section.data(1).logicalSrcIdx = 55;
 	  section.data(1).dtTransOffset = 0;
+	
+	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.ldyrygeoes.LoggedData
+	  section.data(2).logicalSrcIdx = 56;
+	  section.data(2).dtTransOffset = 1;
+	
+	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.pnk23rwlvk.LoggedData
+	  section.data(3).logicalSrcIdx = 57;
+	  section.data(3).dtTransOffset = 2;
+	
+	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.p23d13xsbf.LoggedData
+	  section.data(4).logicalSrcIdx = 58;
+	  section.data(4).dtTransOffset = 3;
+	
+	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.fevmioxn2g.LoggedData
+	  section.data(5).logicalSrcIdx = 59;
+	  section.data(5).dtTransOffset = 4;
+	
+	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.ahtctrkqga.LoggedData
+	  section.data(6).logicalSrcIdx = 60;
+	  section.data(6).dtTransOffset = 5;
+	
+	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.grjmqrjdxi.LoggedData
+	  section.data(7).logicalSrcIdx = 61;
+	  section.data(7).dtTransOffset = 6;
+	
+	  ;% fffknzztmme.iaerhrjrgiy.hqd4v2bp1f2.gt3lnbzths.LoggedData
+	  section.data(8).logicalSrcIdx = 62;
+	  section.data(8).dtTransOffset = 7;
 	
       nTotData = nTotData + section.nData;
       dworkMap.sections(22) = section;
@@ -1485,7 +1497,7 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.b0xpaoxbhk.ajmlomiaju
+	  ;% fffknzztmme.iaerhrjrgiy.laoar3shd1.ajmlomiaju
 	  section.data(1).logicalSrcIdx = 63;
 	  section.data(1).dtTransOffset = 0;
 	
@@ -1496,12 +1508,23 @@
       section.nData     = 1;
       section.data(1)  = dumData; %prealloc
       
-	  ;% fffknzztmme.iaerhrjrgiy.cgp13md54b5.ajmlomiaju
+	  ;% fffknzztmme.iaerhrjrgiy.b0xpaoxbhk.ajmlomiaju
 	  section.data(1).logicalSrcIdx = 64;
 	  section.data(1).dtTransOffset = 0;
 	
       nTotData = nTotData + section.nData;
       dworkMap.sections(24) = section;
+      clear section
+      
+      section.nData     = 1;
+      section.data(1)  = dumData; %prealloc
+      
+	  ;% fffknzztmme.iaerhrjrgiy.cgp13md54b5.ajmlomiaju
+	  section.data(1).logicalSrcIdx = 65;
+	  section.data(1).dtTransOffset = 0;
+	
+      nTotData = nTotData + section.nData;
+      dworkMap.sections(25) = section;
       clear section
       
     
@@ -1530,8 +1553,8 @@
   ;%
 
 
-  targMap.checksum0 = 1637791780;
-  targMap.checksum1 = 179389782;
-  targMap.checksum2 = 2861216306;
-  targMap.checksum3 = 1036005410;
+  targMap.checksum0 = 4246321212;
+  targMap.checksum1 = 493500174;
+  targMap.checksum2 = 898906853;
+  targMap.checksum3 = 1918898911;
 
