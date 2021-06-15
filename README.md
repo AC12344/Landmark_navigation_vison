@@ -14,4 +14,8 @@ Running the code that can be generated and ported to the drone:
 4) generate the code.
  
  
-~                                                                                  
+Matlab toolboxes need: 
+Vision HDL Toolbox, Aerospace Blockset, Simulink, Simulink COder, Control System Toolbox 
+Matlab Hardware Support packages needed:
+Simulink Support Package for Parrot Minidrones  
+                                                                                  
